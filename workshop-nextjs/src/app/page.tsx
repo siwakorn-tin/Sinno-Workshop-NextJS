@@ -1,9 +1,10 @@
+import Heading from "@/components/Heading";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div>
-      {" "}
+      <Heading text={"Hi, Tintin."}></Heading>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel risus
       in mauris ultricies convallis. Morbi dictum eu mauris nec consequat. Fusce
       id nisl tellus. Pellentesque posuere a augue sed maximus. Curabitur sit
